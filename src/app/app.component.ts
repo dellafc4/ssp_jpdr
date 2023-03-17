@@ -47,9 +47,9 @@ export class AppComponent implements OnInit {
   }
 
   setResultData(resultData: any) {
-    this.enemyMove = resultData.enemyOption
-    this.resultMessage = resultData.gameEndOption
-    this.enemyMoveImage = this.availablePlays[resultData.enemyOption as keyof typeof this.availablePlays]
+    this.enemyMove = resultData.enemyMove
+    this.resultMessage = resultData.gameOutcomeValue
+    this.enemyMoveImage = this.availablePlays[resultData.enemyMove as keyof typeof this.availablePlays]
   }
 
   setPlayerMoveImage(playerMove: any) {

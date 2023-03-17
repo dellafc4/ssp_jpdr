@@ -1,0 +1,20 @@
+<div class="content" role="main">
+    <h2> {{ player }} </h2>
+
+    <div class="card-container" *ngIf="moveOptions">
+    <a class="card" target="_blank" rel="noopener" (click)="onMoveClicked(moveOptions[1])" >
+        <img src="assets/svg/paper.svg" />       
+        <span>{{ moveOptions[1] }}</span>
+    </a>
+
+    <a class="card" target="_blank" rel="noopener" (click)="onMoveClicked(moveOptions[0])">
+        <img src="assets/svg/rock.svg" />
+        <span>{{ moveOptions[0] }}</span>
+    </a>
+
+    <a class="card" target="_blank" rel="noopener" (click)="onMoveClicked(moveOptions[2])">
+        <img src="assets/svg/scissors.svg" />
+        <span>{{ moveOptions[2] }}</span>
+    </a>
+    </div>
+</div>

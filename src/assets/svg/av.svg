@@ -1,0 +1,41 @@
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Ebene_1" width="150" height="150"  x="0px" y="0px" viewBox="0 0 505.11 105.7" style="enable-background:new 0 0 505.11 105.7;" xml:space="preserve">
+    <style type="text/css">
+      .st0{fill:#2DD8C6;}
+      .st1{fill:#8D91F8;}
+      .st2{fill:#7074D6;}
+      .st3{fill:#474981;}
+      .st4{fill:#5F619C;}
+      .st5{fill:#3A4E72;}
+      .st6{fill:#2B3549;}
+      .st7{fill:#5F80BB;}
+      .st8{fill:#476BAE;}
+      .st9{fill:#415E93;}
+      .st10{fill:#30CBCB;}
+      .st11{fill:#21A3A3;}
+      .st12{fill:#37D8D8;}
+      .st13{fill:#64EDCF;}
+      .st14{fill:#6CF3D5;}
+      .st15{fill:#14C8B5;}
+      .st16{fill:#FFFFFF;}
+    </style>
+    <g>
+      <polygon class="st0" points="42.28,0 21.18,0 42.28,21.18 63.42,0  "/>
+      <polygon class="st1" points="63.42,0 42.28,21.18 63.38,21.14 84.56,21.14  "/>
+      <polygon class="st2" points="84.6,0 63.42,0 84.6,21.14 105.7,0  "/>
+      <polygon class="st3" points="105.7,0 84.6,21.14 84.55,21.14 105.69,42.28 105.69,21.18 105.7,21.18  "/>
+      <polygon class="st4" points="105.7,42.28 84.55,21.14 84.55,42.29 84.56,63.42 105.69,42.28  "/>
+      <polygon class="st5" points="84.56,63.42 105.7,84.56 105.7,63.42 105.7,42.28  "/>
+      <polygon class="st6" points="84.56,63.42 84.56,84.56 105.7,84.56  "/>
+      <polygon class="st7" points="84.56,105.7 84.56,84.56 105.7,84.56  "/>
+      <polygon class="st8" points="63.43,84.56 63.42,84.56 63.42,84.56 63.42,84.56 63.43,84.56 84.56,105.7 84.56,84.56 84.56,63.42     "/>
+      <polygon class="st9" points="63.41,84.56 42.27,105.7 63.41,105.7 84.56,105.7  "/>
+      <polygon class="st10" points="42.27,63.42 42.27,84.56 42.27,84.56 42.27,105.7 63.41,84.56  "/>
+      <polygon class="st11" points="42.27,63.43 63.41,84.56 63.41,63.43 63.41,42.29  "/>
+      <polygon class="st12" points="42.28,42.29 21.14,42.29 42.27,63.43 63.41,42.29  "/>
+      <polygon class="st11" points="21.14,42.27 0,63.42 21.14,63.43 42.27,63.43  "/>
+      <polygon class="st13" points="21.13,42.28 21.14,42.27 21.13,42.27 0,21.13 0,42.28 0,63.42 21.13,42.28 21.14,42.28  "/>
+      <polygon class="st14" points="21.14,21.14 0,21.13 21.14,0  "/>
+      <polygon class="st15" points="21.14,21.14 0,21.13 21.14,42.28 42.28,21.15  "/>
+      <path class="st11" d="M21.14,21.14V0l21.14,21.15C42.28,21.15,21.14,21.16,21.14,21.14z"/>
+    </g>
+    </svg>

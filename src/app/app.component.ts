@@ -1,7 +1,5 @@
 import { Component, OnInit, Output } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-
 
 @Component({
   selector: 'app-root',
@@ -21,6 +19,12 @@ export class AppComponent implements OnInit {
     PAPER: "assets/svg/paper.svg",
     SCISSORS: "assets/svg/scissors.svg",
     ROCK: "assets/svg/rock.svg"
+  }
+
+  availableResultMessage = {
+    PLAYER_WINS: "YOU WIN !!!",
+    TIE: "TIE",
+    ENEMY_WINS: "ENEMY WINS :("
   }
 
   startGameData: any
@@ -48,7 +52,7 @@ export class AppComponent implements OnInit {
 
   setResultData(resultData: any) {
     this.enemyMove = resultData.enemyMove
-    this.resultMessage = resultData.gameOutcomeValue
+    this.resultMessage = this.availableResultMessage[resultData.gameOutcomeValue as keyof typeof this.availableResultMessage]
     this.enemyMoveImage = this.availablePlays[resultData.enemyMove as keyof typeof this.availablePlays]
   }
 
